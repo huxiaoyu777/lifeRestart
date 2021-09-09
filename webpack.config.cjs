@@ -6,6 +6,7 @@ module.exports = {
   devtool: 'eval-cheap-module-source-map',
   devServer: {
     port: 80,
+    hot: true,
     static: [
       {
         directory: path.join(__dirname, 'data'),
